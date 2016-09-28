@@ -9,7 +9,8 @@ angular.module('app').controller('DemoCtrl',function($scope,prompt){
         label:'Input label',
         value:'Input initial value',
         values:'',
-        buttons:''
+        buttons:'',
+        keyboard: true
     };
 
     var processOptions = function(){

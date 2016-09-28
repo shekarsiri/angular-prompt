@@ -10,6 +10,8 @@ angular.module('cgPrompt').factory('prompt',['$uibModal','$q',function($uibModal
             input: false,
             label: '',
             value: '',
+            backdrop: true,
+            keyboard: true,
             values: false,
             buttons: [
                 {label:'Cancel',cancel:true},
@@ -32,6 +34,8 @@ angular.module('cgPrompt').factory('prompt',['$uibModal','$q',function($uibModal
         $uibModal.open({
             templateUrl:'angular-prompt.html',
             controller: 'cgPromptCtrl',
+            backdrop: options.backdrop,
+            keyboard: options.keyboard,
             resolve: {
                 options:function(){
                     return options;
