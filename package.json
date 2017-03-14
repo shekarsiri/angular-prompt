@@ -1,10 +1,10 @@
 {
-  "name": "angular-prompt",
+  "name": "angular-prompt-extended",
   "version": "1.2.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cgross/angular-prompt.git"
+    "url": "git://github.com/shekarsiri/angular-prompt.git"
   },
   "devDependencies": {
     "grunt": "~0.4.4",

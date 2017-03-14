@@ -10,7 +10,8 @@ angular.module('app').controller('DemoCtrl',function($scope,prompt){
         value:'Input initial value',
         values:'',
         buttons:'',
-        keyboard: true
+        keyboard: true,
+        backdrop: true
     };
 
     var processOptions = function(){
